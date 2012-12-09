@@ -12,7 +12,7 @@ This resource was produced by:
 
 * [Christopher Hewett](http://users.ecs.soton.ac.uk/cjh1e11/)
 * [Sean Corrigan](http://users.ecs.soton.ac.uk/sc2g10/)
-* [Eric Natase](http://users.ecs.soton.ac.uk/en6g11/)
+* [Eric Nastase](http://users.ecs.soton.ac.uk/en6g11/)
 * [Alex King](http://users.ecs.soton.ac.uk/ajk4g11/)
 * [Georgi Tsonev](http://users.ecs.soton.ac.uk/gt2g11/)
 
