@@ -1,0 +1,80 @@
+<script type="text/javascript" src="js/jQuiz.js"></script>
+		      <div class="well">
+			<h2>Quick Quiz!</h2>
+			<h3>Test out your knowledge with our fun quiz!</h3>
+			<p>Do you think that you know enough to keep you safe whilst online? Well, if you do, take our
+			quick quiz to see how safe you are!</p>
+		<!-- stores the total number of questions and question answers for jQuiz.js-->
+		<div class="hide" id="numQuestions">3</div>
+		<div class="hide" id="1">a</div>
+		<div class="hide" id="2">a</div>
+		<div class="hide" id="3">a</div>
+		
+		<div class="well questionContainer">
+			<div class="question"><b>Question 1:</b> What sign should I look for on a web browser to know whether a website is secured?</div>
+			<div class="answer">
+				<label class="radio">
+					<input type="radio" name="q1" id="q1-a" />
+					Padlock symbol
+				</label>
+				<label class="radio">
+					<input type="radio" name="q1" id="q1-b" />
+					Not a padlock symbol
+				</label>
+					 
+			</div>
+ 			<div class="btnContainer">
+                		
+				<button class="next btn btnNext" type="button">Next</Button>
+            		</div>		</div>
+		<div class="well questionContainer hide">
+			<div class="question"><b>Question 2:</b> Which browser should you avoid</div>
+			<div class="answer">
+				<label class="radio">
+					<input type="radio" name="q2" id="q2-a" />
+					Google Chrome
+				</label>
+				<label class="radio">
+					<input type="radio" name="q2" id="q2-b" />
+					Internet Explorer
+				</label>
+					 
+			</div>
+			<div class="btnContainer">
+                		<button class="prev btn btnPrev" type="button">Prev</Button>
+				<button class="next btn btnNext" type="button">Next</Button>
+            		</div>	
+		</div>
+
+		<div class="well questionContainer hide">
+			<div class="question"><b>Question 3:</b> Why?</div>
+			<div class="answer">
+				<label class="radio">
+					<input type="radio" name="q3" id="q3-a" />
+					Google Chrome
+				</label>
+				<label class="radio">
+					<input type="radio" name="q3" id="q3-b" />
+					Internet Explorer
+				</label>
+					 
+			</div>
+			<div class="btnContainer">
+                		<button class="prev btn btnPrev" type="button">Prev</Button>
+				<button class="next btn btnShowResult" type="button">Finish!</Button>
+            		</div>	
+		</div>
+
+	<b>Progress</b>
+    
+        <div class="progress" id="progressparent">
+		<div class="bar" id="progress" style="width: 0%;"></div>
+	</div>
+ 
+    <div id="resultKeeper" class="radius hide"></div>
+  	<p> Click <a href="#quiz_viruses" onClick="loadContent('quiz');">here</a> to select another quiz. </p>
+</div>  
+	
+
+       </div>   
+
