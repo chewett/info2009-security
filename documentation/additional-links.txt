@@ -4,6 +4,8 @@ National Cyber Security Alliance Twitter Page - https://twitter.com/StaySafeOnli
 
 Bank Safe Online - http://www.banksafeonline.org.uk/
 
+Qualys Browser Check - https://browsercheck.qualys.com/
+
 Antivirus Websites:
 Norton Antivirus - http://www.norton.com/
 Avast - http://www.avast.com/
