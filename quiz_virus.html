@@ -40,9 +40,9 @@
           <a class="brand" href="#">Security you should know!</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#home" onClick="loadContent('frontpage');">Home</a></li>
-              <li><a href="#about" onClick="loadContent('about');">About</a></li>
-              <li><a href="#contact" onClick="loadContent('contact');">Contact</a></li>
+              <li class="active"><a href="frontpage.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -55,17 +55,17 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Information that you should know</li>
-              <li><a href="#learn" onClick="loadContent('tut_learn');">Start Learning now!</a></li>
-              <li><a href="#what_antivirus" onClick="loadContent('tut_antivirus');">What Antivirus?</a></li>
-              <li><a href="#how_to_bank_safely" onClick="loadContent('tut_banking');">How to Bank Safely online</a></li>
-              <li><a href="#update_regularly" onClick="loadContent('tut_updates');">Do I need that Update?</a></li>
-              <li><a href="#twitter" onClick="loadContent('twitter');">Check out some Twitter Tips</a></li>
-              <li><a href="#passwords" onClick="loadContent('tut_passwords');">Password Making Tips</a></li>
-              <li><a href="#network_security" onClick="loadContent('tut_netsecurity');">Network Security</a></li>
-              <li><a href="#social_engineering" onClick="loadContent('tut_soceng');">Social Engineering</a></li>
-              <li><a href="#how_to_bank_safely" onClick="loadContent('tut_scams');">Typical email Scams to avoid</a></li>
-              <li><a href="#virus" onClick="loadContent('tut_virus');">What is a Virus?</a></li>
-              <li><a href="#quiz" onClick="loadContent('quiz');">Test yourself</a></li>
+              <li><a href="tut_learn.html">Start Learning now!</a></li>
+              <li><a href="tut_antivirus.html">What Antivirus?</a></li>
+              <li><a href="tut_banking.html">How to Bank Safely online</a></li>
+              <li><a href="tut_updates.html">Do I need that Update?</a></li>
+              <li><a href="twitter.html">Check out some Twitter Tips</a></li>
+              <li><a href="tut_passwords.html">Password Making Tips</a></li>
+              <li><a href="tut_netsecurity.html">Network Security</a></li>
+              <li><a href="tut_soceng.html">Social Engineering</a></li>
+              <li><a href="tut_scams.html">Typical email Scams to avoid</a></li>
+              <li><a href="tut_virus.html">What is a Virus?</a></li>
+              <li><a href="quiz.html">Test yourself</a></li>
             </ul>
             <div >            <a class="twitter-timeline" href="https://twitter.com/StaySafeOnline" data-widget-id="278503567856386049">Tweets by @StaySafeOnline</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -75,7 +75,6 @@
         </div><!--/span-->
         <div class="span9">
           <div id="main_content">
-			  <script type="text/javascript" src="js/jQuiz.js"></script>
 		      <div class="well">
 			<h2>Quick Quiz!</h2>
 			<h3><i>Stay safe!</i></h3>
@@ -253,6 +252,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jQuiz.js"></script>
     <script>
       function loadContent(page) {
         $("#main_content").load(page + ".html");
