@@ -1,25 +1,31 @@
 <script type="text/javascript" src="js/jQuiz.js"></script>
 		      <div class="well">
 			<h2>Quick Quiz!</h2>
-			<h3>Test out your knowledge with our fun quiz!</h3>
+			<h3><i>Stay safe!</i></h3>
 			<p>Do you think that you know enough to keep you safe whilst online? Well, if you do, take our
 			quick quiz to see how safe you are!</p>
 		<!-- stores the total number of questions and question answers for jQuiz.js-->
-		<div class="hide" id="numQuestions">3</div>
+		<div class="hide" id="numQuestions">5</div>
 		<div class="hide" id="1">a</div>
-		<div class="hide" id="2">a</div>
-		<div class="hide" id="3">a</div>
-		
+		<div class="hide" id="2">c</div>
+		<div class="hide" id="3">c</div>
+		<div class="hide" id="4">c</div>
+		<div class="hide" id="5">b</div>
+
 		<div class="well questionContainer">
-			<div class="question"><b>Question 1:</b> What sign should I look for on a web browser to know whether a website is secured?</div>
+			<div class="question"><b>Question 1:</b>To stay protected from viruses, spyware and other things I should..</div>
 			<div class="answer">
 				<label class="radio">
 					<input type="radio" name="q1" id="q1-a" />
-					Padlock symbol
+					have antivirus software installed and update it reguarly.
 				</label>
 				<label class="radio">
 					<input type="radio" name="q1" id="q1-b" />
-					Not a padlock symbol
+					only use the internet for emailing.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q1" id="q1-c" />
+					use Internet Explorer as my default web browser.
 				</label>
 					 
 			</div>
@@ -28,15 +34,23 @@
 				<button class="next btn btnNext" type="button">Next</Button>
             		</div>		</div>
 		<div class="well questionContainer hide">
-			<div class="question"><b>Question 2:</b> Which browser should you avoid</div>
+			<div class="question"><b>Question 2:</b> When banking online, how can you tell if a website handles your data over a secure connection?</div>
 			<div class="answer">
 				<label class="radio">
 					<input type="radio" name="q2" id="q2-a" />
-					Google Chrome
+					The website tells you that it is secure.
 				</label>
 				<label class="radio">
 					<input type="radio" name="q2" id="q2-b" />
-					Internet Explorer
+					All websites are connected over a secure connection.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q2" id="q2-c" />
+					The address of the website starts with 'https://' and there is a little padlock next to the address bar in the browser.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q2" id="q2-d" />
+					I am using antivirus software so any data I enter into the website is handled securely.
 				</label>
 					 
 			</div>
@@ -47,15 +61,78 @@
 		</div>
 
 		<div class="well questionContainer hide">
-			<div class="question"><b>Question 3:</b> Why?</div>
+			<div class="question"><b>Question 3:</b>What software should be updated and how regularly should I update it?</div>
 			<div class="answer">
 				<label class="radio">
 					<input type="radio" name="q3" id="q3-a" />
-					Google Chrome
+					Only antivirus software should be updated regularly (as soon as there are new updates).
 				</label>
 				<label class="radio">
 					<input type="radio" name="q3" id="q3-b" />
-					Internet Explorer
+					The web browser should only be updated as it is used to go on the internet.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q3" id="q3-c" />
+					The operating system, web browser + plugins and antivirus software should be updated as soon as there are updates available.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q3" id="q3-d" />
+					No updates are needed. All software is safe when released.
+				</label>
+					 
+			</div>
+			<div class="btnContainer">
+                		<button class="prev btn btnPrev" type="button">Prev</Button>
+				<button class="next btn btnNext" type="button">Next</Button>
+
+            		</div>	
+		</div>
+
+			<div class="well questionContainer hide">
+			<div class="question"><b>Question 4:</b>What type of characters should a safe password consist of?</div>
+			<div class="answer">
+				<label class="radio">
+					<input type="radio" name="q4" id="q4-a" />
+					Dictionary words of any length.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q4" id="q4-b" />
+					Any dictoinary word over 8 characters long with the use of capitalisation.
+				</label>
+				<label class="radio">
+					<input type="radio" name="q4" id="q4-c" />
+					A non-dictionary word password with a length of more than 6 characters which uses symbols, capitalistion and numbers.
+			</label>
+				<label class="radio">
+					<input type="radio" name="q4" id="q4-d" />
+					An easily rememberable name such as a pet's name so that you don't forget it.
+				</label>
+					 
+			</div>
+			<div class="btnContainer">
+                		<button class="prev btn btnPrev" type="button">Prev</Button>
+				<button class="next btn btnNext" type="button">Next</Button>
+
+            		</div>	
+		</div>
+		<div class="well questionContainer hide">
+			<div class="question"><b>Question 5:</b>Which password is most secure?</div>
+			<div class="answer">
+				<label class="radio">
+					<input type="radio" name="q5" id="q5-a" />
+					password
+				</label>
+				<label class="radio">
+					<input type="radio" name="q5" id="q5-b" />
+					sT@y_sAFE867
+				</label>
+				<label class="radio">
+					<input type="radio" name="q5" id="q5-c" />
+					fido
+				</label>
+				<label class="radio">
+					<input type="radio" name="q5" id="q5-d" />
+					D1cti0nary
 				</label>
 					 
 			</div>
@@ -64,7 +141,6 @@
 				<button class="next btn btnShowResult" type="button">Finish!</Button>
             		</div>	
 		</div>
-
 	<b>Progress</b>
     
         <div class="progress" id="progressparent">

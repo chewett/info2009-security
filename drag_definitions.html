@@ -1,0 +1,61 @@
+ 
+             <div class="well">
+			<h2>Drag and Drop Puzzle</h2>
+			<h3><i>"Hackers"</i></h3>
+			<p>Test your knowledge on types of people involved in hacking by reordering the list of definitions so that each virus corresponds to 
+			the correct definition for it!</p>
+			<p>Click "Check Answers" to see whether you have solved the puzzle!</p>			
+
+			
+
+	
+<script src="js/jDrop.js"></script>
+ 
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+<script>
+    $(function() {
+        $( "#sortable" ).sortable({
+            revert: true
+        });
+        $( "ul, li" ).disableSelection();
+    });
+    </script>
+<style>
+	li { list-style:none; }
+	.answer { display: block; background-color:#AACDE0; padding: 5px; margin-top:8px;}
+	.question{ margin-top:10px; padding:8px;}
+</style>
+<div style=" overflow: hidden;">
+ <div style="float:left; width: 200px;">
+<p><b>Type of Hacker</b></p>
+<ul id="lefty">
+    <li class="question">White Hat Hackers</li>
+    <li class="question">Black Hat Hackers</li>
+    <li class="question">Cracker</li>
+    <li class="question">Phreaker</li>
+    <li class="question">Spammer</li>
+    <li class="question">Phisher</li>
+</ul>
+</div>
+ <div style="margin-left: 220px;">
+<p><b>Definition</b></p>
+
+<ul id="sortable">
+  
+	<li class="answer" id="2" style="cursor: hand; cursor: pointer;" >Individuals who try to gain unauthorized access to network resources with malicious intent</li>
+	<li class="answer" id="5"  style="cursor: hand; cursor: pointer;">Individuals who trick others into providing sensitive information, such as credit card numbers or passwords</li>
+	<li class="answer" id="4"  style="cursor: hand; cursor: pointer;">Individuals who send large quantities of unsolicited e-mail messages</li>
+	<li class="answer" id="3"  style="cursor: hand; cursor: pointer;">Individuals who manipulates the phone network to cause it to perform a function that is not allowed</li>
+	<li class="answer" id="1"  style="cursor: hand; cursor: pointer;">Individuals who use their knowledge of computer systems to break into systems or networks that they are not authorized to use, usually for personal or financial gain</li>
+	<li class="answer" id="0"  style="cursor: hand; cursor: pointer;">individuals who looks for vulnerabilities in systems or networks and then reports these vulnerabilities to the owners of the system so that they can be fixed</li>
+</ul>
+</div>
+</div>
+
+<input type="button" id="checkButton" onclick="checkAnswers()" value="Check Answers"/>
+<div class="resultKeeper" id="resultKeeper"> </div>
+<p> Click <a href="#quiz" onClick="loadContent('quiz');">here</a> to select another quiz. </p>
+
+
+
