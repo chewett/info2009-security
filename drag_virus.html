@@ -83,17 +83,7 @@
 			<p>Click "Check Answers" to see whether you have solved the puzzle!</p>			
 
 				
-<script src="js/jDrop.js"></script>
- 
-<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-<script>
-    $(function() {
-        $( "#sortable" ).sortable({
-            revert: true
-        });
-        $( "ul, li" ).disableSelection();
-    });
-    </script>
+
 <style>
 	li { list-style:none; }
 	.answer { display: block; background-color:#AACDE0; padding: 5px; margin-top:8px;}
@@ -150,7 +140,16 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jDrop.js"></script>
     <script>
+    $(function() {
+        $( "#sortable" ).sortable({
+            revert: true
+        });
+        $( "ul, li" ).disableSelection();
+    });
+
+    
       function loadContent(page) {
         $("#main_content").load(page + ".html");
       }
